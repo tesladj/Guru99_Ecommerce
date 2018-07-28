@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Smoke]">
+  <parameter name="BrowserName" value="ff"/>
+  <parameter name="R-id" value="R-4"/>
+  <parameter name="tc-id" value="TC-4"/>
+  <parameter name="URL" value="http://live.guru99.com/"/>
+  <parameter name="WebDriverXPath" value=" "/>
+  <test name="Verify item in the mobile list page can be sorted bu name">
+    <parameter name="BrowserName" value="ff"/>
+    <parameter name="R-id" value="R-1"/>
+    <parameter name="tc-id" value="TC-1"/>
+    <parameter name="URL" value="http://live.guru99.com/"/>
+    <parameter name="WebDriverXPath" value=" "/>
+    <classes>
+      <class name="TestCases.TC1"/>
+    </classes>
+  </test> <!-- Verify item in the mobile list page can be sorted bu name -->
+  <test name="Verify the cost of the product in list page and details page are equal">
+    <parameter name="BrowserName" value="ff"/>
+    <parameter name="R-id" value="R-2"/>
+    <parameter name="tc-id" value="TC-2"/>
+    <parameter name="URL" value="http://live.guru99.com/"/>
+    <parameter name="WebDriverXPath" value=""/>
+    <classes>
+      <class name="TestCases.TC2"/>
+    </classes>
+  </test> <!-- Verify the cost of the product in list page and details page are equal -->
+  <test name="Verify thatyou cannot add more product in cart than the product available in store">
+    <parameter name="BrowserName" value="ff"/>
+    <parameter name="R-id" value="R-3"/>
+    <parameter name="tc-id" value="TC-3"/>
+    <parameter name="URL" value="http://live.guru99.com/"/>
+    <parameter name="WebDriverXPath" value=" "/>
+    <classes>
+      <class name="TestCases.TC3"/>
+    </classes>
+  </test> <!-- Verify thatyou cannot add more product in cart than the product available in store -->
+  <test name="Verify that you are able to compare two product">
+    <parameter name="BrowserName" value="ff"/>
+    <parameter name="R-id" value="R-4"/>
+    <parameter name="tc-id" value="TC-4"/>
+    <parameter name="URL" value="http://live.guru99.com/"/>
+    <parameter name="WebDriverXPath" value=" "/>
+    <classes>
+      <class name="TestCases.TC4"/>
+    </classes>
+  </test> <!-- Verify that you are able to compare two product -->
+</suite> <!-- Failed suite [Smoke] -->
