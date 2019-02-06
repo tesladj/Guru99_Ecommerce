@@ -66,6 +66,7 @@ public class AllTestCase {
 		rpm.clickRegister();
 		hm.VerifyRegister();
 		System.out.println("Test travis");
+		System.out.println("Test travis");
 		try{
 			System.out.println("Text is present and user is registered");
 		}
