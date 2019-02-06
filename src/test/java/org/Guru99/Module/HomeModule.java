@@ -22,8 +22,18 @@ public class HomeModule {
 	public void TvClick(){
 		hp.TV.click();
 	}
+	public void registerMyAccount(){
+		hp.registerAccount.click();
+	}
 	
-	
+	public boolean VerifyRegister(){
+		boolean text = hp.verifyRegister.isDisplayed();
+		
+		return text;
+	}
+	public void addWishlist(){
+		hp.addWish.click();
+	}
 	
 	
 	

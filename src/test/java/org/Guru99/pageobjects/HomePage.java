@@ -34,6 +34,15 @@ public class HomePage {
 	@FindBy(how=How.XPATH,using=".//*[@id='top']/body/div/div/div[2]/div/div[1]/div/div[1]/strong/span")
 	public WebElement MyAccount;
 	
+	@FindBy(how=How.XPATH,using=".//*[@id='header-account']/div/ul/li[5]/a")
+	public WebElement registerAccount;
+	
+	@FindBy(how=How.XPATH,using="//*[@id='top']/body/div/div/div[2]/div/div[2]/div/div/ul/li/ul/li/span")
+	public WebElement verifyRegister;
+	
+	@FindBy(how=How.XPATH,using="(.//*[@class='link-wishlist'])[1]")
+	public WebElement addWish;
+	
 	
 	
 }

@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Smoke" duration-ms="114680" started-at="2018-07-25T12:45:10Z" finished-at="2018-07-25T12:47:05Z">
+  <suite name="Smoke" duration-ms="38064" started-at="2018-08-27T18:08:41Z" finished-at="2018-08-27T18:09:19Z">
     <groups>
+      <group name="Regression">
+        <method signature="AllTestCase.AllTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.AllTestCase@7dc36524]" name="AllTest" class="TestCases.AllTestCase"/>
+      </group> <!-- Regression -->
     </groups>
-    <test name="Verify item in the mobile list page can be sorted bu name" duration-ms="46443" started-at="2018-07-25T12:45:10Z" finished-at="2018-07-25T12:45:57Z">
-      <class name="TestCases.TC1">
-        <test-method status="PASS" signature="ExecuteTc1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC1@75bd9247]" name="ExecuteTc1" duration-ms="46350" started-at="2018-07-25T05:45:10Z" finished-at="2018-07-25T05:45:57Z">
+    <test name="Verify you can create account in E-commerce site and can share wishlist to other people using email" duration-ms="38064" started-at="2018-08-27T18:08:41Z" finished-at="2018-08-27T18:09:19Z">
+      <class name="TestCases.AllTestCase">
+        <test-method status="PASS" signature="AllTest(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:TestCases.AllTestCase@7dc36524]" name="AllTest" duration-ms="38043" started-at="2018-08-27T11:08:41Z" finished-at="2018-08-27T11:09:19Z">
           <params>
             <param index="0">
               <value>
@@ -27,99 +30,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ExecuteTc1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC1@75bd9247]" name="tearDown" is-config="true" duration-ms="67" started-at="2018-07-25T05:45:57Z" finished-at="2018-07-25T05:45:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC1 -->
-    </test> <!-- Verify item in the mobile list page can be sorted bu name -->
-    <test name="Verify the cost of the product in list page and details page are equal" duration-ms="21852" started-at="2018-07-25T12:45:58Z" finished-at="2018-07-25T12:46:20Z">
-      <class name="TestCases.TC2">
-        <test-method status="PASS" signature="ExecuteTc2(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC2@49e4cb85]" name="ExecuteTc2" duration-ms="21829" started-at="2018-07-25T05:45:58Z" finished-at="2018-07-25T05:46:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ff]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://live.guru99.com/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTc2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC2@49e4cb85]" name="tearDown" is-config="true" duration-ms="23" started-at="2018-07-25T05:46:20Z" finished-at="2018-07-25T05:46:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC2 -->
-    </test> <!-- Verify the cost of the product in list page and details page are equal -->
-    <test name="Verify thatyou cannot add more product in cart than the product available in store" duration-ms="23203" started-at="2018-07-25T12:46:20Z" finished-at="2018-07-25T12:46:43Z">
-      <class name="TestCases.TC3">
-        <test-method status="PASS" signature="ExecuteTc3(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC3@1e643faf]" name="ExecuteTc3" duration-ms="23176" started-at="2018-07-25T05:46:20Z" finished-at="2018-07-25T05:46:43Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ff]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://live.guru99.com/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTc3 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC3@1e643faf]" name="tearDown" is-config="true" duration-ms="25" started-at="2018-07-25T05:46:43Z" finished-at="2018-07-25T05:46:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC3 -->
-    </test> <!-- Verify thatyou cannot add more product in cart than the product available in store -->
-    <test name="Verify that you are able to compare two product" duration-ms="22179" started-at="2018-07-25T12:46:43Z" finished-at="2018-07-25T12:47:05Z">
-      <class name="TestCases.TC4">
-        <test-method status="PASS" signature="ExecuteTc4(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TC4@7f63425a]" name="ExecuteTc4" duration-ms="22161" started-at="2018-07-25T05:46:43Z" finished-at="2018-07-25T05:47:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ff]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[http://live.guru99.com/]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ExecuteTc4 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC4@7f63425a]" name="tearDown" is-config="true" duration-ms="17" started-at="2018-07-25T05:47:05Z" finished-at="2018-07-25T05:47:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.TC4 -->
-    </test> <!-- Verify that you are able to compare two product -->
+        </test-method> <!-- AllTest -->
+      </class> <!-- TestCases.AllTestCase -->
+    </test> <!-- Verify you can create account in E-commerce site and can share wishlist to other people using email -->
   </suite> <!-- Smoke -->
 </testng-results>

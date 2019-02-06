@@ -12,8 +12,11 @@ import org.Guru99.Module.MobilePageModule;
 import org.Guru99.pageobjects.HomePage;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+@Listeners(org.Guru99.Config.Listener.class)
 
 public class TC2 {
 

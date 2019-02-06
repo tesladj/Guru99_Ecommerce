@@ -12,6 +12,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import org.Guru99.Config.Config;
@@ -24,7 +25,7 @@ import org.apache.commons.io.FileUtils;
 
 
 
-
+@Listeners(org.Guru99.Config.Listener.class)
 
 
 public class TC1 {
@@ -51,6 +52,7 @@ public class TC1 {
 		lm.EnterPassword("cybagetest");
 		Config.driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
 		lm.Login();
+		System.out.println("Test travis");
 		String title = hp.MyAccount.getText();
 		System.out.println(title);
 		if(title.equals("MY ACCOUNT")){
