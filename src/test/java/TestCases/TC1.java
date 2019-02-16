@@ -36,7 +36,7 @@ public class TC1 {
 	HomeModule hm ;
 	HomePage hp;
 	MobilePageModule mpm;
-	
+	//testing
 	@Test
 	@Parameters({"BrowserName" , "URL" , "WebDriverXPath"})
 	public void ExecuteTc1(String BrowserName,String URL,String WebDriverXPath) throws IOException{

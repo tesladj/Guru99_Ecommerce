@@ -20,6 +20,7 @@ import org.testng.annotations.Test;
 
 public class TC2 {
 
+	//testing
 	public static int timeout = 30;
 	public int scc = 0;
 	
