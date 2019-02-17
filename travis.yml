@@ -1,11 +1,14 @@
 language: java
+
 jdk:
 - oraclejdk8
 before_script:
--set projectLocation=C:\Users\dhanesh\workspace_Java\Guru99_Ecommerce
--cd %projectLocation%
+- set projectLocation=C:\Users\dhanesh\workspace_Java\Guru99_Ecommerce
+- cd %projectLocation%
+
+
 script: 
--mvn clean test -DsuiteXmlFile=testng.xml
+- mvn clean test -DsuiteXmlFile=testng.xml
 
 
 
